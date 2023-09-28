@@ -4,4 +4,7 @@ module.exports = {
   daisyui: {
     themes: ["dark"],
   },
+  safelist: [
+  {pattern: /grid-cols-*/}
+  ]
 };
